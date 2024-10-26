@@ -1399,25 +1399,25 @@ function getRewards(mode, score, bonus, rank, all, ss){
 	// rank는 0~7
 	switch(Const.GAME_TYPE[mode]){
 		case "EKT":
-			rw.score += score * 1.4;
+			rw.score += score * 1.5;
 			break;
 		case "ESH":
-			rw.score += score * 0.5;
+			rw.score += score * 0.6;
 			break;
 		case "KKT":
-			rw.score += score * 1.42;
+			rw.score += score * 1.52;
 			break;
 		case "KSH":
-			rw.score += score * 0.55;
+			rw.score += score * 0.58;
 			break;
 		case "CSQ":
-			rw.score += score * 0.4;
+			rw.score += score * 0.42;
 			break;
 		case 'KCW':
-			rw.score += score * 1.0;
+			rw.score += score * 1.1;
 			break;
 		case 'KTY':
-			rw.score += score * 0.3;
+			rw.score += score * 0.32;
 			break;
 		case 'ETY':
 			rw.score += score * 0.37;
